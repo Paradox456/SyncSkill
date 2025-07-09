@@ -1,12 +1,18 @@
-# React + Vite
+🚀 SkillSync – AI-Powered Skill Building Platform
+SkillSync is a full-stack microlearning app that helps users build job-ready skills through personalized AI-generated learning paths, interactive challenges, and real-time progress tracking. It features tiered subscriptions, portfolio tools, and a sleek user interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔧 Tech Stack
+Frontend: React, Tailwind CSS, Framer Motion
+Backend: Node.js, Express, MongoDB
+APIs: OpenAI API, Stripe API
+Auth: JWT & Google OAuth
+Deployment: Vercel (frontend), Render (backend), MongoDB Atlas
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+🔐 Secure JWT Authentication + Google OAuth
+🧠 AI-generated learning paths (OpenAI)
+📚 Skill tracking with personalized dashboards
+💳 Stripe-powered subscription tiers (Free, Pro, Elite)
+🏆 Weekly challenges and leaderboards
+📁 Portfolio builder/export to GitHub or PDF
+⚡ Responsive, mobile-friendly UI

@@ -7,20 +7,31 @@ function App() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <a href="#" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-xl flex items-center justify-center text-white font-bold text-xl">
-              S
-            </div>
             <span className="text-2xl font-bold text-indigo-600">SkillSync</span>
           </a>
           <div className="flex items-center space-x-4">
             <button href="#" className="px-6 py-3 text-indigo-600 border-2 border-indigo-600 rounded-xl font-semibold hover:bg-indigo-600 hover:text-white transition-all duration-300 hover:-translate-y-1">
               Sign In
             </button>
-            <button href="#" className="px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-xl font-semibold hover:shadow-lg hover:shadow-indigo-500/25 transition-all duration-300 hover:-translate-y-1">
-              Get Started
-            </button>
           </div>
         </div>
+      </div>
+      <div class="flex items-end justify-center">
+        <h1 className="text-center text-sm bg-gradient-to-r from-teal-500 to-emerald-500 text-black rounded-full text-indigo-600 mt-5"> AI-Powered Learning Platform</h1>
+        </div>
+      <div>
+        <h1 className="text-center text-7xl mt-5 animate-pulse">
+          Build <span className="font-bold text-indigo-600">Job-Ready</span> Skills
+        </h1>
+      </div>
+      <p className="text-xl mt-5 text-center text-neutral-600 "> 
+      Master in-demand skills with AI-generated learning paths, interactive challenges, and personalized feedback. Build your portfolio and advance your career.
+      </p>
+      <div className="flex justify-center items-center">
+      <button onClick="handleClick()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-5 content-center">
+      Start Learning For Free
+      </button>
+
       </div>
     </nav>
   );
