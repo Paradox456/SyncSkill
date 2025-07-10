@@ -238,14 +238,7 @@ function App() {
       <span>Money-back guarantee</span>
      </div>
 
-
-    
-
-    
-
-
-
-
+     
       </main>
     </div>
   );
