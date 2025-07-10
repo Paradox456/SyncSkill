@@ -17,7 +17,7 @@ function App() {
         </div>
       </div>
       <div class="flex items-end justify-center">
-        <h1 className="text-center text-sm bg-gradient-to-r from-teal-500 to-emerald-500 text-black rounded-full text-indigo-600 mt-5"> AI-Powered Learning Platform</h1>
+        <h1 className="text-center text-sm bg-gradient-to-r from-lime-500 to-emerald-500 text-black rounded-full text-indigo-600 mt-5"> AI-Powered Learning Platform</h1>
         </div>
       <div>
         <h1 className="text-center text-7xl mt-5 animate-pulse">
@@ -28,11 +28,16 @@ function App() {
       Master in-demand skills with AI-generated learning paths, interactive challenges, and personalized feedback. Build your portfolio and advance your career.
       </p>
       <div className="flex justify-center items-center">
-      <button onClick="handleClick()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-5 content-center">
+      <button onClick="handleClick()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-10 content-center">
       Start Learning For Free
       </button>
-
-      </div>
+     </div>
+     <div className="mt-20 mx-auto max-w-md rounded-3xl bg-white p-6 shadow-md text-center">
+     <h1 className="text-2xl font-bold text-black">AI-Generated Paths</h1>
+     <p className="mt-3 text-neutral-500">
+        Personalized learning journeys tailored to your goals and current skill level
+    </p>
+</div>
     </nav>
   );
 }
