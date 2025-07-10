@@ -40,7 +40,7 @@ function App() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-10">
-        <div className="bg-cyan-100 hover:bg-green-500 transition-color duration-100 shadow-lg rounded-2xl p-6 w-72 text-center">
+        <div className="bg-cyan-100 hover:bg-green-300 transition-color duration-100 shadow-lg rounded-2xl p-6 w-72 text-center">
            <h2 className="text-xl font-bold mb-2 text-gray-600">AI-Generated Paths</h2>
             <p className="text-gray-600">
             Personalized learning journeys tailored to your goals and current skill level
@@ -54,13 +54,197 @@ function App() {
           </p>
         </div>
 
-        <div className="bg-sky-100 hover:bg-stone-500 transition-color duration-100 shadow-lg rounded-2xl p-6 w-72 text-center">
+        <div className="bg-stone-100 hover:bg-sky-500 transition-color duration-100 shadow-lg rounded-2xl p-6 w-72 text-center">
           <h2 className="text-xl font-bold mb-2 text-gray-600">Portfolio Builder</h2>
           <p className="text-gray-600">
             Showcase your skills with auto-generated portfolios and GitHub integration
           </p>
         </div>
       </div>
+
+     <div>
+      <h1 className="font-bold text-amber-500 text-center mt-30 text-4xl ">
+        Choose Your Learning Journey
+      </h1>
+      <p className="text-gray-500 text-center text-xl mt-3">
+        Start free and upgrade as you grow. All plans include core features and AI-powered personalization.
+      </p>
+     </div>
+
+     <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-10">
+      <div className="bg-zinc-300 shadow-lg rounded-2xl p-6 w-170 text-center">
+      <h1 className="text-center mt-1 text-2xl text-bold text-black">
+        Free
+      </h1>
+      <h2 className="text-center mt-3 text-2xl text-black"> 
+        <span className="font-bold text-black">$0</span>
+        /month
+      </h2>
+      <h3 className="text-center mt-2 text-md text-gray-500">
+        Perfect for getting started
+      </h3>
+
+      <div className="flex justify-center items-center">
+        <div className="bg-indigo-600 rounded-lg w-170 mt-6">
+        <button className="mt-1">
+          Get Started For Free
+        </button>
+      </div>    
+
+      </div>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+        3 AI-generated paths
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Basic progress tracking
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Community challenges
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Portfolio showcase
+      </h1>
+
+     </div>
+      
+    </div>
+
+    <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-10">
+      <div className="bg-stone-300 shadow-lg rounded-2xl p-6 w-170 text-center">
+      <h1 className="text-center mt-1 text-2xl font-bold text-black">
+        Pro
+      </h1>
+      <h2 className="text-center mt-3 text-2xl text-black"> 
+        <span className="font-bold text-black">$20</span>
+        /month
+      </h2>
+      <h3 className="text-center mt-2 text-md text-gray-500">
+        For Serious Skill Builders
+      </h3>
+
+      <div className="flex justify-center items-center">
+        <div className="bg-indigo-600 rounded-xl w-170 mt-6 p-2">
+        <button className="mt-1">
+          Start Pro Now
+        </button>
+      </div>    
+
+      </div>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Unlimited AI learning paths
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Advanced analytics And insights
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Priority challenge access
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      1-on-1 mentorship sessions
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Portfolio export to GitHub/PDF
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Custom skill assessments
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Priority support
+      </h1>
+
+     </div>
+      
+    </div>
+
+
+    <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-10">
+      <div className="bg-stone-300 shadow-lg rounded-2xl p-6 w-170 text-center">
+      <h1 className="text-center mt-1 text-2xl font-bold text-black">
+        Elite
+      </h1>
+      <h2 className="text-center mt-3 text-2xl text-black"> 
+        <span className="font-bold text-black">$50</span>
+        /month
+      </h2>
+      <h3 className="text-center mt-2 text-md text-gray-500">
+        For teams and professionals
+      </h3>
+
+      <div className="flex justify-center items-center">
+        <div className="bg-indigo-600 rounded-xl w-170 mt-6 p-2">
+        <button className="mt-1">
+          Contact Sales
+        </button>
+      </div>    
+
+      </div>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Everything in Pro
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Team collaboration tools
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Custom learning paths
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Weekly live workshops
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Career coaching sessions
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Industry certification prep
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      API access for integrations
+      </h1>
+
+      <h1 className="text-left mt-10 mx-1 text-black">
+      Dedicated account manager 
+      </h1>
+
+
+
+     </div>
+
+     </div>
+
+     <h1 className="text-center mt-10">
+      All plans include a 14-day free trial. No credit card required.
+     </h1>
+
+
+     <div className="flex justify-center gap-10 text-gray-400 text-lg mt-5">
+      <span>Cancel anytime</span>
+      <span>Money-back guarantee</span>
+     </div>
+
+
+    
+
+    
+
+
+
 
       </main>
     </div>
