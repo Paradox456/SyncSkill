@@ -1,4 +1,6 @@
-import { BrowserRouter } from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import SignIn from "./SignIn";
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
               <span className="text-2xl font-bold text-indigo-600">SkillSync</span>
             </a>
             <div className="flex items-center space-x-4">
-              <button className="px-6 py-3 text-indigo-600 border-2 border-indigo-600 rounded-xl font-semibold hover:bg-indigo-600 hover:text-white transition-all duration-300 hover:-translate-y-1">
+              <button onClick={() => navigate("/signin")} className="px-6 py-3 text-indigo-600 border-2 border-indigo-600 rounded-xl font-semibold hover:bg-indigo-600 hover:text-white transition-all duration-300 hover:-translate-y-1">
                 Sign In
               </button>
             </div>
@@ -18,7 +20,7 @@ function App() {
         </div>
       </nav>
 
-      <main className="pt-28 px-4 pb-20">
+      <main className="pt-28 px-3 pb-20">
         <div className="flex items-end justify-center">
           <h1 className="text-center text-sm bg-gradient-to-r from-lime-500 to-emerald-500 text-black rounded-l-5xl text-indigo-600 mt-5">
             AI-Powered Learning Platform
@@ -63,7 +65,7 @@ function App() {
       </div>
 
      <div>
-      <h1 className="font-bold text-amber-500 text-center mt-30 text-4xl ">
+      <h1 className="font-bold text-amber-500 text-center mt-15 text-4xl ">
         Choose Your Learning Journey
       </h1>
       <p className="text-gray-500 text-center text-xl mt-3">
