@@ -1,12 +1,10 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 
-function SignInPage() {
-  const navigate = useNavigate();
+function SignUpPage() {
   return (
     <div className="flex items-center justify-center w-full min-h-screen bg-zinc-300 p-4 box-border">
       <div className="bg-black p-10 rounded-lg shadow-xl w-full max-w-md text-center">
-        <h2 className="text-3xl font-bold mb-2 text-white">Sign In</h2>
+        <h2 className="text-3xl font-bold mb-2 text-white">Sign Up</h2>
         <p className="text-gray-500 text-base mb-8">Enter your credentials to access your account</p>
 
         <form className="text-left">
@@ -59,11 +57,6 @@ function SignInPage() {
           </button>
         </div>
 
-        <h1 className="text-white text-base mb-10">
-          Don't have an account? 
-          <button onClick={() => navigate("/signup")} className="text-indigo-600 hover:underline mx-1">Sign up</button>
-        </h1>
-
         <p className="text-gray-400 text-xs leading-relaxed">
           By continuing, you agree to our <a href="#" className="text-indigo-600 hover:underline">Terms of Service</a> and <a href="#" className="text-indigo-600 hover:underline">Privacy Policy</a>
         </p>
@@ -73,4 +66,4 @@ function SignInPage() {
   );
 }
 
-export default SignInPage;
+export default SignUpPage;
