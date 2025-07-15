@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import SignIn from "./pages/SignIn"; 
 import SignUp from "./pages/SignUp";
 import TermsOfService from "./pages/TermsOfService";
+import PrivatePolicy from "./pages/PrivatePolicy";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/termsofservice" element={<TermsOfService />} />
+        <Route path="/privatepolicy" element={<PrivatePolicy />} />
       </Routes>
     </BrowserRouter>
   );
