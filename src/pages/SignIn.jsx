@@ -34,7 +34,7 @@ function SignInPage() {
             <label className="flex items-center text-white cursor-pointer">
               <input type="checkbox" className="mr-2 accent-purple-cta w-4 h-4" /> Remember me
             </label>
-            <a href="#" className="text-indigo-600 hover:underline">Forgot password?</a>
+            <button onClick={() => navigate("/forgotpassword")} className="text-indigo-600 hover:underline">Forgot password?</button>
           </div>
 
           <button
