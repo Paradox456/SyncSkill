@@ -65,7 +65,7 @@ function SignInPage() {
         </h1>
 
         <p className="text-gray-400 text-xs leading-relaxed">
-          By continuing, you agree to our <a href="#" className="text-indigo-600 hover:underline">Terms of Service</a> and <a href="#" className="text-indigo-600 hover:underline">Privacy Policy</a>
+          By continuing, you agree to our <button onClick={() => navigate("/termsofservice")} className="text-indigo-600 hover:underline">Terms of Service</button> and <button className="text-indigo-600 hover:underline">Privacy Policy</button>
         </p>
       </div>
     </div>
